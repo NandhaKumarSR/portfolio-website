@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website | @NandhaKumar</title>
+
+    <!--  FONT-AWESOME  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--  MAIN CSS  -->
+    <link rel="stylesheet" href="style/styles.css" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="JS/main.js"></script>
+  </head>
+  <body>
+    <!--  header design  -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--  home section design  -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Nandha Kumar</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Building scalable systems to extract, transform, and visualize data to
+          turn raw data into real-world results.
+        </p>
+
+        <div class="social-media">
+          <a href="https://github.com/NandhaKumarSR" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://leetcode.com/u/nandhakumar_sr/"
+            class="leetcode"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/?size=100&id=PZknXs9seWCp&format=png&color=000000"
+              alt="LeetCode"
+              class="icon-img"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/nandha-kumar-sr/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://www.kaggle.com/nandhakumarsr"
+            class="kaggle"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/?size=100&id=1iP83OYM1FL-&format=png&color=000000"
+              alt="Kaggle"
+              class="icon-img"
+            />
+          </a>
+          <a href="https://www.instagram.com/nandha_kumar____/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://x.com/NandhaKumarSRx" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+
+        <a href="docs/Nandha Kumar Resume.pdf" class="btn" download>Download Resume</a>  
+
+      </div>
+      <!-- ✅ closed missing div -->
+
+      <div class="home-img">
+        <img src="img/profiledp.png" alt="Profile Picture" />
+      </div>
+    </section>
+
+    <!--  about section design  -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/aboutpic.png" alt="About Me Picture" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Data Engineer & BI Developer</h3>
+        <p>
+          I design scalable data solutions that help teams make better
+          decisions. From pipelines to dashboards, I focus on clarity,
+          performance, and impact - turning raw data into meaningful stories.
+        </p>
+        <h3>Technical <span>Skills</span></h3>
+        <div class="skills">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">Power BI</span>
+          <span class="skill-pill">PySpark</span>
+          <span class="skill-pill">Azure Data Factory</span>
+          <span class="skill-pill">Azure Databricks</span>
+          <span class="skill-pill">Azure Synapse Analytics</span>
+          <span class="skill-pill">Azure Logic Apps</span>
+          <span class="skill-pill">Azure Analysis Services</span>
+          <span class="skill-pill">Microsoft Fabric</span>
+        </div>
+    </br>
+        <h3>Education</h3>
+        <div class="education">
+          <p>
+            <strong>Bachelor of Engineering</strong> in Computer Science
+            <span>2016 – 2020</span><br />
+            K. Ramakrishnan College of Technology, Tamil Nadu
+          </p>
+        </div>
+      </div>
+    </section>
+ 
+    <!--  services section design  
+<!--    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            I build responsive, modern websites optimized for speed,
+            functionality, and scalability.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-solid fa-palette"></i>
+          <h3>UI/UX Designing</h3>
+          <p>
+            I design intuitive user interfaces and seamless user experiences
+            that improve engagement.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-brands fa-android"></i>
+          <h3>App Development</h3>
+          <p>
+            I develop mobile applications with smooth performance and modern UI
+            for Android platforms.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section> 
+
+-->
+    <!--  portfolio section design  -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="img/1.png" alt="Project 1" />
+          <div class="portfolio-layer">
+            <h4>Email campaign analytics dashboard</h4>
+            <p>Power BI dashboard analyzing email marketing performance across segments, devices, and geographies with conversion funnel insights.</p>
+            <p>
+              <a href="https://github.com/NandhaKumarSR/email_campaign_analytics_dashboard" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiY2MyMjFiNTgtZDVjZi00YmRkLWJkZTEtMmE4MjE2NzAzMmNhIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+
+        <!-- repeat similar structure for other projects -->
+        <div class="portfolio-box">
+          <img src="img/2.png" alt="Project 2" />
+          <div class="portfolio-layer">
+            <h4>Tesla Sales Dashboard</h4>
+            <p>Power BI dashboard visualizing Tesla model specs, global sales, and predicted unit sales using linear regression.</p>
+            <p>
+              <a href="https://github.com/NandhaKumarSR/tesla_spec_vs_sales_dashboard" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiMjc2ZDcxNDYtYTgxMC00MmZmLTgwOTktMjgyMDNjZmVlMzQ1IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/3.png" alt="Project 1" />
+          <div class="portfolio-layer">
+            <h4>Financial performance dashboard</h4>
+            <p>Power BI dashboard analyzing business financials with mobile and desktop views for real-time decision-making.</p>
+            <p>
+              <a href="https://github.com/NandhaKumarSR/financial_performace_dashboard" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiMWIwZjI5ZjktNWI5Yy00MDMyLTkzZWYtYTU2NjUxNDJiMDk3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/4.png" alt="Project 1" />
+          <div class="portfolio-layer">
+            <h4>Financial performance dashboard</h4>
+            <p>Python EDA and Power BI dashboard to identify the top 3 Halloween candies using public vote data and flavor analysis</p>
+            <p>
+              <a href="https://github.com/NandhaKumarSR/halloween_treats_analysis" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiMTFhMWMzOGEtYzE4Yi00ZTNhLWIwMGQtMGNjZGIzYzA4ZDkxIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/5.png" alt="Project 1" />
+          <div class="portfolio-layer">
+            <h4>HR analytics dashboard</h4>
+            <p>Power BI dashboard visualizing HR metrics including employee performance, work hours, and organizational trends.</p>
+            <p>
+              <a href="https://github.com/NandhaKumarSR/hr_analytics_dashboard" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiYmVmMDJmMGUtODViMC00OTM0LTk2ZmItMTljOTk1Yzg0ODA3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/6.png" alt="Project 1" />
+          <div class="portfolio-layer">
+            <h4>Superbikes specs showcase</h4>
+            <p>A creative dashboard showcasing superbike specs and performance through visual storytelling and design.</p>
+            <p>
+              <a href="https://github.com/NandhaKumarSR/superbikes_spec_showcase" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiN2U0MjM5MzEtMWEzMi00YmU0LTliZDQtM2VhNTFjOGIxZWMxIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  contact section design  -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form id="contact-form">
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input type="email" name="email" placeholder="Email Address" required />
+        </div>
+        <div class="input-box">
+            <input type="tel" name="phone" placeholder="Mobile Number" />
+            <input type="text" name="subject" placeholder="Email Subject" />
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+        </form>
+    </section>
+
+    <!--  footer section design  -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by @NandhaKumar | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+
+    <!--  TYPED JS  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--  SCROLL REVEAL  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--  MAIN JS  -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
